@@ -5,7 +5,7 @@ import (
 
 	"github.com/gogf/gf/v2/frame/g"
 
-	"goframe-shop/api/v1"
+	"github.com/degary/goframe-shop/api/v1"
 )
 
 var (

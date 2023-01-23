@@ -7,7 +7,7 @@ import (
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gcmd"
 
-	"goframe-shop/internal/controller"
+	"github.com/degary/goframe-shop/internal/controller"
 )
 
 var (
@@ -21,6 +21,7 @@ var (
 				group.Middleware(ghttp.MiddlewareHandlerResponse)
 				group.Bind(
 					controller.Hello,
+					controller.Rotation,
 				)
 			})
 			s.Run()
