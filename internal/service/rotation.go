@@ -14,6 +14,8 @@ import (
 type (
 	IRotation interface {
 		Add(ctx context.Context, in model.RotationAddInput) (out model.RotationAddOutput, err error)
+		Delete(ctx context.Context, id int) error
+		Update(ctx context.Context, in model.RotationUpdateInput) error
 	}
 )
 

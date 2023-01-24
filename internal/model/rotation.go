@@ -16,3 +16,8 @@ type RotationAddInput struct {
 type RotationAddOutput struct {
 	RotationId int `json:"rotation_id"`
 }
+
+type RotationUpdateInput struct {
+	RotationAddUpdateBase
+	Id int
+}
