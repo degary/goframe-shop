@@ -9,7 +9,6 @@ type RotationAddReq struct {
 	Sort   int    `json:"sort"     dc:"排序"`
 }
 type RotationAddRes struct {
-	//todo
 	RotationId int `json:"rotationId"`
 }
 

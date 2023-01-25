@@ -11,7 +11,6 @@ type PositionAddReq struct {
 	Sort      int    `json:"sort"     dc:"排序"`
 }
 type PositionAddRes struct {
-	//todo
 	PositionId int `json:"positionId"`
 }
 
